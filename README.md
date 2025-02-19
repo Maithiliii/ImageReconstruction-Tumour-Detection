@@ -1,9 +1,13 @@
 1️⃣ Make a training script (train.py) that trains the model and saves it as an .h5 file.
+
+
 2️⃣ Make a testing script (test.py) that loads the saved .h5 model and tests new images.
 
 This is the file Structure
 Image Reconstruction/
+
 ├── venv/
+
 ├── dataset/
 ├── myenv/
 ├── templates/
