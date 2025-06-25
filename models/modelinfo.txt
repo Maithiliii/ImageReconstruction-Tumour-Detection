@@ -1,0 +1,9 @@
+Download .h5 models from the Drive  
+
+### Reconstruction models  
+brain_model: https://drive.google.com/file/d/1wV_ujfjzSPWHPE-gUDSZ5GL9w7TA0Qkp/view?usp=sharing  
+kidney_model: https://drive.google.com/file/d/1uC70yRxIp9n8-_JBxCAddfmna6cdLE7H/view?usp=sharing  
+
+### Tumor detection/classifier models  
+brain_classifier model: https://drive.google.com/file/d/1w0Z62RnlQIqjQ9ycK659YKAL_O0nPEVT/view?usp=sharing  
+kidney_classifier model:https://drive.google.com/file/d/1hzxYU-FTn0fikC67AcE5BJ0Yql1sD2XR/view?usp=sharing  
