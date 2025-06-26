@@ -20,7 +20,7 @@ brain_model = load_model('models/autoencoder8_brain_model.h5', custom_objects={'
 kidney_model = load_model('models/bestkidney_model.h5', custom_objects={'combined_loss': combined_loss})
 
 brain_classifier = load_model('models/best_model1.h5')
-kidney_classifier = load_model('models/kidney_model_best.h5')
+kidney_classifier = load_model('models/kidney_classifier_model.h5')
 
 brain_labels = ['glioma', 'meningioma', 'notumor', 'pituitary']
 kidney_labels = ['no tumor', 'tumor']
@@ -37,12 +37,15 @@ def preprocess_image(img_path):
 def preprocess_for_classification(img_path, organ):
     img = cv2.imread(img_path)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
     if organ == 'brain':
-        img = cv2.resize(img, (240, 240))
+        img = cv2.resize(img, (240, 240))  # trained on 240x240
     elif organ == 'kidney':
-        img = cv2.resize(img, (240, 240))
+        img = cv2.resize(img, (256, 256))  # trained on 256x256
+
     img = img.astype('float32') / 255.0
     return np.expand_dims(img, axis=0)
+
 
 # === Enhance & Sharpen ===
 def enhance_grayscale_sharpen(image):
