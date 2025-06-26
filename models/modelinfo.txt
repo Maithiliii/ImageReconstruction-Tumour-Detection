@@ -6,4 +6,4 @@ kidney_model: https://drive.google.com/file/d/1uC70yRxIp9n8-_JBxCAddfmna6cdLE7H/
 
 Tumor detection/classifier models  
 brain_classifier model: https://drive.google.com/file/d/1w0Z62RnlQIqjQ9ycK659YKAL_O0nPEVT/view?usp=sharing  
-kidney_classifier model:https:https://drive.google.com/file/d/1IEM1yIwDsEmMd3pP72-zLHcRm-PtoAsI/view?usp=sharing  
+kidney_classifier model:https:https://drive.google.com/file/d/1IEM1yIwDsEmMd3pP72-zLHcRm-PtoAsI/view?usp=sharing
