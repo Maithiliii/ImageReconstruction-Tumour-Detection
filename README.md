@@ -26,7 +26,8 @@ This improves clarity before classification, leading to more reliable diagnostic
 ImageReconstruction-Tumour-Detection/  
 ├── app.py  
 ├── requirements.txt   
-├── Dockerfile   
+├── Dockerfile  
+├── .dockerignore    
 ├── brainclassify.ipynb  
 ├── kidneyclassify.ipynb  
 ├── braintrain.ipynb  
