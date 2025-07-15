@@ -66,12 +66,30 @@ Saved models will automatically go inside the `models/` folder.
 
 ---
 
-### 🚀 Run the Web App
-
+### 🚀 Run the Web App  
+✅ Option 1: Run Locally with Python  
 1. Make sure the folder `static/uploads/` exists (create if missing).
 2. In the terminal, run:
    ```bash
    python app.py
 
 3. Go to http://localhost:5000 in your browser.  
+
+✅ Option 2: Run with Docker
+
+If you have Docker installed, you can skip Python setup entirely and run the app in a container.
+
+```bash
+# Step 1: Build the Docker image
+docker build -t tumor-app .
+
+# Step 2: Run the container
+docker run -p 5000:5000 tumor-app
+```
+
+Then open your browser and go to:  
+👉 [http://localhost:5000](http://localhost:5000)
+
+
+
 
